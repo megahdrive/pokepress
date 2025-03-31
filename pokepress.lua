@@ -2,8 +2,9 @@ console:log("INFO: Loaded file")
 
 local first_buff = true
 
-local target = 3699
-local offset = 101
+local target = 1000 -- Change to the frame you want 
+local offset = 101 -- Change to your desired offset [(frame - offset) = the frame that A will be pressed on]
+
 local last_frame = 0
 
 local key_release_time = 1
